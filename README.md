@@ -21,3 +21,9 @@ Recognizing Everything from All Modalities at Once: Grounded Multimodal Universa
 ## Please stay tuned; the updated data will be released soon.
 
 ----------
+
+## MUIE Benchmark Data
+
+  ![MUIE](./image/MUIE-task.png)
+
+To evaluate the performance of our grounded MUIE system, we develop a benchmark testing set. We select 9 existing datasets from different modalities (or combinations thereof) for IE/MIE tasks. The following table summarizes these datasets of the raw sources. We then process these datasets, such as Text↔Speech, to create 6 new datasets under new multimodal (combination) scenarios. Before annotation, we carefully select 200 instances from their corresponding testing sets, ensuring each instance contained as much IE information as possible.
